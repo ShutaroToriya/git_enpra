@@ -36,7 +36,7 @@ namespace WpfApp1
 
         private void combine_button_Click(object sender, RoutedEventArgs e)
         {
-            result_letter.Text = letter1.Text + letter2.Text;
+            result_letter.Text = letter1.Text + " " + letter2.Text;
             letter1.Text = "";
             letter2.Text = "";
 
